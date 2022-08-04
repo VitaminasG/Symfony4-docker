@@ -1,0 +1,752 @@
+2022/08/04 14:17:49 [notice] 1#1: using the "epoll" event method
+2022/08/04 14:17:49 [notice] 1#1: nginx/1.23.1
+2022/08/04 14:17:49 [notice] 1#1: built by gcc 11.2.1 20220219 (Alpine 11.2.1_git20220219) 
+2022/08/04 14:17:49 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2022/08/04 14:17:49 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/08/04 14:17:49 [notice] 1#1: start worker processes
+2022/08/04 14:17:49 [notice] 1#1: start worker process 31
+2022/08/04 14:17:49 [notice] 1#1: start worker process 32
+2022/08/04 14:17:49 [notice] 1#1: start worker process 33
+2022/08/04 14:17:49 [notice] 1#1: start worker process 34
+2022/08/04 14:17:49 [notice] 1#1: start worker process 35
+2022/08/04 14:17:49 [notice] 1#1: start worker process 36
+2022/08/04 14:18:32 [error] 31#31: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "localhost:8080"
+2022/08/04 14:18:32 [error] 31#31: *1 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/08/04 14:18:41 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/08/04 14:18:41 [notice] 35#35: gracefully shutting down
+2022/08/04 14:18:41 [notice] 35#35: exiting
+2022/08/04 14:18:41 [notice] 31#31: gracefully shutting down
+2022/08/04 14:18:41 [notice] 31#31: exiting
+2022/08/04 14:18:41 [notice] 32#32: gracefully shutting down
+2022/08/04 14:18:41 [notice] 33#33: gracefully shutting down
+2022/08/04 14:18:41 [notice] 33#33: exiting
+2022/08/04 14:18:41 [notice] 34#34: gracefully shutting down
+2022/08/04 14:18:41 [notice] 34#34: exiting
+2022/08/04 14:18:41 [notice] 36#36: gracefully shutting down
+2022/08/04 14:18:41 [notice] 36#36: exiting
+2022/08/04 14:18:41 [notice] 35#35: exit
+2022/08/04 14:18:41 [notice] 31#31: exit
+2022/08/04 14:18:41 [notice] 33#33: exit
+2022/08/04 14:18:41 [notice] 34#34: exit
+2022/08/04 14:18:41 [notice] 36#36: exit
+2022/08/04 14:18:41 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2022/08/04 14:18:41 [notice] 1#1: worker process 35 exited with code 0
+2022/08/04 14:18:41 [notice] 1#1: signal 29 (SIGIO) received
+2022/08/04 14:18:41 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/08/04 14:18:41 [notice] 1#1: worker process 31 exited with code 0
+2022/08/04 14:18:41 [notice] 1#1: worker process 33 exited with code 0
+2022/08/04 14:18:41 [notice] 1#1: worker process 34 exited with code 0
+2022/08/04 14:18:41 [notice] 1#1: worker process 36 exited with code 0
+2022/08/04 14:18:41 [notice] 1#1: signal 29 (SIGIO) received
+2022/08/04 14:18:41 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/08/04 14:19:28 [notice] 1#1: using the "epoll" event method
+2022/08/04 14:19:28 [notice] 1#1: nginx/1.23.1
+2022/08/04 14:19:28 [notice] 1#1: built by gcc 11.2.1 20220219 (Alpine 11.2.1_git20220219) 
+2022/08/04 14:19:28 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2022/08/04 14:19:28 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/08/04 14:19:28 [notice] 1#1: start worker processes
+2022/08/04 14:19:28 [notice] 1#1: start worker process 31
+2022/08/04 14:19:28 [notice] 1#1: start worker process 32
+2022/08/04 14:19:28 [notice] 1#1: start worker process 33
+2022/08/04 14:19:28 [notice] 1#1: start worker process 34
+2022/08/04 14:19:28 [notice] 1#1: start worker process 35
+2022/08/04 14:19:28 [notice] 1#1: start worker process 36
+2022/08/04 14:20:56 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/08/04 14:20:56 [notice] 31#31: gracefully shutting down
+2022/08/04 14:20:56 [notice] 33#33: gracefully shutting down
+2022/08/04 14:20:56 [notice] 36#36: gracefully shutting down
+2022/08/04 14:20:56 [notice] 34#34: gracefully shutting down
+2022/08/04 14:20:56 [notice] 36#36: exiting
+2022/08/04 14:20:56 [notice] 35#35: gracefully shutting down
+2022/08/04 14:20:56 [notice] 36#36: exit
+2022/08/04 14:20:56 [notice] 32#32: gracefully shutting down
+2022/08/04 14:20:56 [notice] 31#31: exiting
+2022/08/04 14:20:56 [notice] 33#33: exiting
+2022/08/04 14:20:56 [notice] 31#31: exit
+2022/08/04 14:20:56 [notice] 34#34: exiting
+2022/08/04 14:20:56 [notice] 34#34: exit
+2022/08/04 14:20:56 [notice] 35#35: exiting
+2022/08/04 14:20:56 [notice] 32#32: exiting
+2022/08/04 14:20:56 [notice] 33#33: exit
+2022/08/04 14:20:56 [notice] 32#32: exit
+2022/08/04 14:20:56 [notice] 35#35: exit
+2022/08/04 14:20:56 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2022/08/04 14:20:56 [notice] 1#1: worker process 36 exited with code 0
+2022/08/04 14:20:56 [notice] 1#1: signal 29 (SIGIO) received
+2022/08/04 14:20:56 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/08/04 14:20:56 [notice] 1#1: worker process 31 exited with code 0
+2022/08/04 14:20:56 [notice] 1#1: worker process 32 exited with code 0
+2022/08/04 14:20:56 [notice] 1#1: signal 29 (SIGIO) received
+2022/08/04 14:20:56 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2022/08/04 14:20:56 [notice] 1#1: worker process 33 exited with code 0
+2022/08/04 14:20:56 [notice] 1#1: worker process 34 exited with code 0
+2022/08/04 14:20:56 [notice] 1#1: worker process 35 exited with code 0
+2022/08/04 14:20:56 [notice] 1#1: exit
+2022/08/04 14:21:41 [notice] 1#1: using the "epoll" event method
+2022/08/04 14:21:41 [notice] 1#1: nginx/1.23.1
+2022/08/04 14:21:41 [notice] 1#1: built by gcc 11.2.1 20220219 (Alpine 11.2.1_git20220219) 
+2022/08/04 14:21:41 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2022/08/04 14:21:41 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/08/04 14:21:41 [notice] 1#1: start worker processes
+2022/08/04 14:21:41 [notice] 1#1: start worker process 31
+2022/08/04 14:21:41 [notice] 1#1: start worker process 32
+2022/08/04 14:21:41 [notice] 1#1: start worker process 33
+2022/08/04 14:21:41 [notice] 1#1: start worker process 34
+2022/08/04 14:21:41 [notice] 1#1: start worker process 35
+2022/08/04 14:21:41 [notice] 1#1: start worker process 36
+2022/08/04 14:23:46 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/08/04 14:23:46 [notice] 33#33: gracefully shutting down
+2022/08/04 14:23:46 [notice] 35#35: gracefully shutting down
+2022/08/04 14:23:46 [notice] 36#36: gracefully shutting down
+2022/08/04 14:23:46 [notice] 36#36: exiting
+2022/08/04 14:23:46 [notice] 32#32: gracefully shutting down
+2022/08/04 14:23:46 [notice] 32#32: exiting
+2022/08/04 14:23:46 [notice] 34#34: gracefully shutting down
+2022/08/04 14:23:46 [notice] 31#31: gracefully shutting down
+2022/08/04 14:23:46 [notice] 33#33: exiting
+2022/08/04 14:23:46 [notice] 35#35: exiting
+2022/08/04 14:23:46 [notice] 36#36: exit
+2022/08/04 14:23:46 [notice] 32#32: exit
+2022/08/04 14:23:46 [notice] 34#34: exiting
+2022/08/04 14:23:46 [notice] 31#31: exiting
+2022/08/04 14:23:46 [notice] 33#33: exit
+2022/08/04 14:23:46 [notice] 35#35: exit
+2022/08/04 14:23:46 [notice] 34#34: exit
+2022/08/04 14:23:46 [notice] 31#31: exit
+2022/08/04 14:23:46 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/08/04 14:23:46 [notice] 1#1: worker process 32 exited with code 0
+2022/08/04 14:23:46 [notice] 1#1: signal 29 (SIGIO) received
+2022/08/04 14:23:46 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/08/04 14:23:46 [notice] 1#1: worker process 33 exited with code 0
+2022/08/04 14:23:46 [notice] 1#1: signal 29 (SIGIO) received
+2022/08/04 14:23:46 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2022/08/04 14:23:46 [notice] 1#1: worker process 34 exited with code 0
+2022/08/04 14:23:46 [notice] 1#1: worker process 36 exited with code 0
+2022/08/04 14:23:46 [notice] 1#1: signal 29 (SIGIO) received
+2022/08/04 14:23:46 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2022/08/04 14:23:46 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/08/04 14:23:46 [notice] 1#1: worker process 31 exited with code 0
+2022/08/04 14:23:46 [notice] 1#1: worker process 35 exited with code 0
+2022/08/04 14:23:46 [notice] 1#1: exit
+2022/08/04 14:24:29 [notice] 1#1: using the "epoll" event method
+2022/08/04 14:24:29 [notice] 1#1: nginx/1.23.1
+2022/08/04 14:24:29 [notice] 1#1: built by gcc 11.2.1 20220219 (Alpine 11.2.1_git20220219) 
+2022/08/04 14:24:29 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2022/08/04 14:24:29 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/08/04 14:24:29 [notice] 1#1: start worker processes
+2022/08/04 14:24:29 [notice] 1#1: start worker process 31
+2022/08/04 14:24:29 [notice] 1#1: start worker process 32
+2022/08/04 14:24:29 [notice] 1#1: start worker process 33
+2022/08/04 14:24:29 [notice] 1#1: start worker process 34
+2022/08/04 14:24:29 [notice] 1#1: start worker process 35
+2022/08/04 14:24:29 [notice] 1#1: start worker process 36
+2022/08/04 14:26:41 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/08/04 14:26:41 [notice] 32#32: gracefully shutting down
+2022/08/04 14:26:41 [notice] 36#36: gracefully shutting down
+2022/08/04 14:26:41 [notice] 31#31: gracefully shutting down
+2022/08/04 14:26:41 [notice] 36#36: exiting
+2022/08/04 14:26:41 [notice] 33#33: gracefully shutting down
+2022/08/04 14:26:41 [notice] 36#36: exit
+2022/08/04 14:26:41 [notice] 35#35: gracefully shutting down
+2022/08/04 14:26:41 [notice] 35#35: exiting
+2022/08/04 14:26:41 [notice] 34#34: gracefully shutting down
+2022/08/04 14:26:41 [notice] 32#32: exiting
+2022/08/04 14:26:41 [notice] 31#31: exiting
+2022/08/04 14:26:41 [notice] 33#33: exiting
+2022/08/04 14:26:41 [notice] 35#35: exit
+2022/08/04 14:26:41 [notice] 34#34: exiting
+2022/08/04 14:26:41 [notice] 32#32: exit
+2022/08/04 14:26:41 [notice] 31#31: exit
+2022/08/04 14:26:41 [notice] 33#33: exit
+2022/08/04 14:26:41 [notice] 34#34: exit
+2022/08/04 14:26:41 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2022/08/04 14:26:41 [notice] 1#1: worker process 36 exited with code 0
+2022/08/04 14:26:41 [notice] 1#1: signal 29 (SIGIO) received
+2022/08/04 14:26:41 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/08/04 14:26:41 [notice] 1#1: worker process 32 exited with code 0
+2022/08/04 14:26:41 [notice] 1#1: worker process 33 exited with code 0
+2022/08/04 14:26:41 [notice] 1#1: worker process 34 exited with code 0
+2022/08/04 14:26:41 [notice] 1#1: worker process 35 exited with code 0
+2022/08/04 14:26:41 [notice] 1#1: signal 29 (SIGIO) received
+2022/08/04 14:26:41 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2022/08/04 14:26:41 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/08/04 14:26:41 [notice] 1#1: worker process 31 exited with code 0
+2022/08/04 14:26:41 [notice] 1#1: exit
+2022/08/04 14:26:45 [notice] 1#1: using the "epoll" event method
+2022/08/04 14:26:45 [notice] 1#1: nginx/1.23.1
+2022/08/04 14:26:45 [notice] 1#1: built by gcc 11.2.1 20220219 (Alpine 11.2.1_git20220219) 
+2022/08/04 14:26:45 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2022/08/04 14:26:45 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/08/04 14:26:45 [notice] 1#1: start worker processes
+2022/08/04 14:26:45 [notice] 1#1: start worker process 31
+2022/08/04 14:26:45 [notice] 1#1: start worker process 32
+2022/08/04 14:26:45 [notice] 1#1: start worker process 33
+2022/08/04 14:26:45 [notice] 1#1: start worker process 34
+2022/08/04 14:26:45 [notice] 1#1: start worker process 35
+2022/08/04 14:26:45 [notice] 1#1: start worker process 36
+2022/08/04 14:27:21 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/08/04 14:27:21 [notice] 32#32: gracefully shutting down
+2022/08/04 14:27:21 [notice] 33#33: gracefully shutting down
+2022/08/04 14:27:21 [notice] 33#33: exiting
+2022/08/04 14:27:21 [notice] 31#31: gracefully shutting down
+2022/08/04 14:27:21 [notice] 31#31: exiting
+2022/08/04 14:27:21 [notice] 34#34: gracefully shutting down
+2022/08/04 14:27:21 [notice] 34#34: exiting
+2022/08/04 14:27:21 [notice] 35#35: gracefully shutting down
+2022/08/04 14:27:21 [notice] 35#35: exiting
+2022/08/04 14:27:21 [notice] 36#36: gracefully shutting down
+2022/08/04 14:27:21 [notice] 36#36: exiting
+2022/08/04 14:27:21 [notice] 33#33: exit
+2022/08/04 14:27:21 [notice] 31#31: exit
+2022/08/04 14:27:21 [notice] 34#34: exit
+2022/08/04 14:27:21 [notice] 35#35: exit
+2022/08/04 14:27:21 [notice] 36#36: exit
+2022/08/04 14:27:21 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2022/08/04 14:27:21 [notice] 1#1: worker process 33 exited with code 0
+2022/08/04 14:27:21 [notice] 1#1: worker process 36 exited with code 0
+2022/08/04 14:27:21 [notice] 1#1: signal 29 (SIGIO) received
+2022/08/04 14:27:21 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/08/04 14:27:21 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2022/08/04 14:27:21 [notice] 1#1: worker process 34 exited with code 0
+2022/08/04 14:27:21 [notice] 1#1: signal 29 (SIGIO) received
+2022/08/04 14:27:21 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/08/04 14:27:21 [notice] 1#1: worker process 31 exited with code 0
+2022/08/04 14:27:21 [notice] 1#1: worker process 35 exited with code 0
+2022/08/04 14:27:21 [notice] 1#1: signal 29 (SIGIO) received
+2022/08/04 14:27:21 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2022/08/04 14:27:33 [notice] 1#1: using the "epoll" event method
+2022/08/04 14:27:33 [notice] 1#1: nginx/1.23.1
+2022/08/04 14:27:33 [notice] 1#1: built by gcc 11.2.1 20220219 (Alpine 11.2.1_git20220219) 
+2022/08/04 14:27:33 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2022/08/04 14:27:33 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/08/04 14:27:33 [notice] 1#1: start worker processes
+2022/08/04 14:27:33 [notice] 1#1: start worker process 31
+2022/08/04 14:27:33 [notice] 1#1: start worker process 32
+2022/08/04 14:27:33 [notice] 1#1: start worker process 33
+2022/08/04 14:27:33 [notice] 1#1: start worker process 34
+2022/08/04 14:27:33 [notice] 1#1: start worker process 35
+2022/08/04 14:27:33 [notice] 1#1: start worker process 36
+2022/08/04 14:27:46 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/08/04 14:27:46 [notice] 32#32: gracefully shutting down
+2022/08/04 14:27:46 [notice] 31#31: gracefully shutting down
+2022/08/04 14:27:46 [notice] 36#36: gracefully shutting down
+2022/08/04 14:27:46 [notice] 33#33: gracefully shutting down
+2022/08/04 14:27:46 [notice] 33#33: exiting
+2022/08/04 14:27:46 [notice] 34#34: gracefully shutting down
+2022/08/04 14:27:46 [notice] 34#34: exiting
+2022/08/04 14:27:46 [notice] 35#35: gracefully shutting down
+2022/08/04 14:27:46 [notice] 35#35: exiting
+2022/08/04 14:27:46 [notice] 36#36: exiting
+2022/08/04 14:27:46 [notice] 36#36: exit
+2022/08/04 14:27:46 [notice] 31#31: exiting
+2022/08/04 14:27:46 [notice] 33#33: exit
+2022/08/04 14:27:46 [notice] 34#34: exit
+2022/08/04 14:27:46 [notice] 35#35: exit
+2022/08/04 14:27:46 [notice] 31#31: exit
+2022/08/04 14:27:46 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2022/08/04 14:27:46 [notice] 1#1: worker process 36 exited with code 0
+2022/08/04 14:27:46 [notice] 1#1: signal 29 (SIGIO) received
+2022/08/04 14:27:46 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2022/08/04 14:27:46 [notice] 1#1: worker process 31 exited with code 0
+2022/08/04 14:27:46 [notice] 1#1: worker process 34 exited with code 0
+2022/08/04 14:27:46 [notice] 1#1: worker process 35 exited with code 0
+2022/08/04 14:27:46 [notice] 1#1: signal 29 (SIGIO) received
+2022/08/04 14:27:46 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2022/08/04 14:27:46 [notice] 1#1: worker process 33 exited with code 0
+2022/08/04 14:27:46 [notice] 1#1: signal 29 (SIGIO) received
+2022/08/04 14:27:46 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/08/04 14:28:27 [notice] 1#1: using the "epoll" event method
+2022/08/04 14:28:27 [notice] 1#1: nginx/1.23.1
+2022/08/04 14:28:27 [notice] 1#1: built by gcc 11.2.1 20220219 (Alpine 11.2.1_git20220219) 
+2022/08/04 14:28:27 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2022/08/04 14:28:27 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/08/04 14:28:27 [notice] 1#1: start worker processes
+2022/08/04 14:28:27 [notice] 1#1: start worker process 31
+2022/08/04 14:28:27 [notice] 1#1: start worker process 32
+2022/08/04 14:28:27 [notice] 1#1: start worker process 33
+2022/08/04 14:28:27 [notice] 1#1: start worker process 34
+2022/08/04 14:28:27 [notice] 1#1: start worker process 35
+2022/08/04 14:28:27 [notice] 1#1: start worker process 36
+2022/08/04 14:38:17 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/08/04 14:38:17 [notice] 31#31: gracefully shutting down
+2022/08/04 14:38:17 [notice] 34#34: gracefully shutting down
+2022/08/04 14:38:17 [notice] 36#36: gracefully shutting down
+2022/08/04 14:38:17 [notice] 32#32: gracefully shutting down
+2022/08/04 14:38:17 [notice] 33#33: gracefully shutting down
+2022/08/04 14:38:17 [notice] 35#35: gracefully shutting down
+2022/08/04 14:38:17 [notice] 31#31: exiting
+2022/08/04 14:38:17 [notice] 35#35: exiting
+2022/08/04 14:38:17 [notice] 34#34: exiting
+2022/08/04 14:38:17 [notice] 35#35: exit
+2022/08/04 14:38:17 [notice] 36#36: exiting
+2022/08/04 14:38:17 [notice] 36#36: exit
+2022/08/04 14:38:17 [notice] 32#32: exiting
+2022/08/04 14:38:17 [notice] 33#33: exiting
+2022/08/04 14:38:17 [notice] 31#31: exit
+2022/08/04 14:38:17 [notice] 34#34: exit
+2022/08/04 14:38:17 [notice] 32#32: exit
+2022/08/04 14:38:17 [notice] 33#33: exit
+2022/08/04 14:38:17 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2022/08/04 14:38:17 [notice] 1#1: worker process 31 exited with code 0
+2022/08/04 14:38:17 [notice] 1#1: worker process 33 exited with code 0
+2022/08/04 14:38:17 [notice] 1#1: worker process 34 exited with code 0
+2022/08/04 14:38:17 [notice] 1#1: worker process 36 exited with code 0
+2022/08/04 14:38:17 [notice] 1#1: signal 29 (SIGIO) received
+2022/08/04 14:38:17 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/08/04 14:38:17 [notice] 1#1: worker process 32 exited with code 0
+2022/08/04 14:38:17 [notice] 1#1: signal 29 (SIGIO) received
+2022/08/04 14:38:17 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2022/08/04 14:38:17 [notice] 1#1: worker process 35 exited with code 0
+2022/08/04 14:38:17 [notice] 1#1: exit
+2022/08/04 14:41:22 [notice] 1#1: using the "epoll" event method
+2022/08/04 14:41:22 [notice] 1#1: nginx/1.23.1
+2022/08/04 14:41:22 [notice] 1#1: built by gcc 11.2.1 20220219 (Alpine 11.2.1_git20220219) 
+2022/08/04 14:41:22 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2022/08/04 14:41:22 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/08/04 14:41:22 [notice] 1#1: start worker processes
+2022/08/04 14:41:22 [notice] 1#1: start worker process 31
+2022/08/04 14:41:22 [notice] 1#1: start worker process 32
+2022/08/04 14:41:22 [notice] 1#1: start worker process 33
+2022/08/04 14:41:22 [notice] 1#1: start worker process 34
+2022/08/04 14:41:22 [notice] 1#1: start worker process 35
+2022/08/04 14:41:22 [notice] 1#1: start worker process 36
+2022/08/04 14:42:46 [error] 34#34: *4 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/08/04 14:43:37 [error] 33#33: *8 directory index of "/var/www/html/" is forbidden, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8080"
+2022/08/04 14:43:39 [error] 33#33: *8 directory index of "/var/www/html/" is forbidden, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8080"
+2022/08/04 14:43:47 [error] 34#34: *4 directory index of "/var/www/html/" is forbidden, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8080"
+2022/08/04 14:44:14 [error] 34#34: *4 directory index of "/var/www/html/" is forbidden, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8080"
+2022/08/04 14:44:15 [error] 34#34: *4 directory index of "/var/www/html/" is forbidden, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8080"
+2022/08/04 14:44:26 [error] 33#33: *8 directory index of "/var/www/html/" is forbidden, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8080"
+2022/08/04 14:46:16 [error] 35#35: *9 open() "/var/www/html/build/vendors~app.css" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /build/vendors~app.css HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/public/"
+2022/08/04 14:46:16 [error] 36#36: *10 open() "/var/www/html/build/app.css" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /build/app.css HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/public/"
+2022/08/04 14:46:16 [error] 36#36: *10 open() "/var/www/html/build/runtime.js" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /build/runtime.js HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/public/"
+2022/08/04 14:46:16 [error] 35#35: *9 open() "/var/www/html/build/vendors~app.js" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /build/vendors~app.js HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/public/"
+2022/08/04 14:46:16 [error] 32#32: *12 open() "/var/www/html/build/app.js" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /build/app.js HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/public/"
+2022/08/04 14:46:16 [error] 32#32: *12 open() "/var/www/html/build/runtime.js" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /build/runtime.js HTTP/1.1", host: "localhost:8080"
+2022/08/04 14:46:16 [error] 32#32: *14 open() "/var/www/html/public/_wdt/be2935" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /public/_wdt/be2935 HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/public/"
+2022/08/04 14:46:17 [error] 32#32: *14 open() "/var/www/html/public/_wdt/be2935" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /public/_wdt/be2935 HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/public/"
+2022/08/04 14:46:18 [error] 32#32: *14 open() "/var/www/html/public/_wdt/be2935" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /public/_wdt/be2935 HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/public/"
+2022/08/04 14:46:19 [error] 32#32: *14 open() "/var/www/html/public/_wdt/be2935" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /public/_wdt/be2935 HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/public/"
+2022/08/04 14:46:20 [error] 32#32: *14 open() "/var/www/html/public/_wdt/be2935" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /public/_wdt/be2935 HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/public/"
+2022/08/04 14:48:42 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/08/04 14:48:42 [notice] 33#33: gracefully shutting down
+2022/08/04 14:48:42 [notice] 33#33: exiting
+2022/08/04 14:48:42 [notice] 35#35: gracefully shutting down
+2022/08/04 14:48:42 [notice] 34#34: gracefully shutting down
+2022/08/04 14:48:42 [notice] 35#35: exiting
+2022/08/04 14:48:42 [notice] 31#31: gracefully shutting down
+2022/08/04 14:48:42 [notice] 36#36: gracefully shutting down
+2022/08/04 14:48:42 [notice] 32#32: gracefully shutting down
+2022/08/04 14:48:42 [notice] 33#33: exit
+2022/08/04 14:48:42 [notice] 34#34: exiting
+2022/08/04 14:48:42 [notice] 34#34: exit
+2022/08/04 14:48:42 [notice] 35#35: exit
+2022/08/04 14:48:42 [notice] 31#31: exiting
+2022/08/04 14:48:42 [notice] 36#36: exiting
+2022/08/04 14:48:42 [notice] 32#32: exiting
+2022/08/04 14:48:42 [notice] 31#31: exit
+2022/08/04 14:48:42 [notice] 36#36: exit
+2022/08/04 14:48:42 [notice] 32#32: exit
+2022/08/04 14:48:42 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2022/08/04 14:48:42 [notice] 1#1: worker process 33 exited with code 0
+2022/08/04 14:48:42 [notice] 1#1: worker process 34 exited with code 0
+2022/08/04 14:48:42 [notice] 1#1: worker process 36 exited with code 0
+2022/08/04 14:48:42 [notice] 1#1: signal 29 (SIGIO) received
+2022/08/04 14:48:42 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/08/04 14:48:42 [notice] 1#1: worker process 32 exited with code 0
+2022/08/04 14:48:42 [notice] 1#1: signal 29 (SIGIO) received
+2022/08/04 14:48:42 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2022/08/04 14:48:42 [notice] 1#1: worker process 31 exited with code 0
+2022/08/04 14:48:42 [notice] 1#1: worker process 35 exited with code 0
+2022/08/04 14:48:42 [notice] 1#1: exit
+2022/08/04 14:49:13 [notice] 1#1: using the "epoll" event method
+2022/08/04 14:49:13 [notice] 1#1: nginx/1.23.1
+2022/08/04 14:49:13 [notice] 1#1: built by gcc 11.2.1 20220219 (Alpine 11.2.1_git20220219) 
+2022/08/04 14:49:13 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2022/08/04 14:49:13 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/08/04 14:49:13 [notice] 1#1: start worker processes
+2022/08/04 14:49:13 [notice] 1#1: start worker process 31
+2022/08/04 14:49:13 [notice] 1#1: start worker process 32
+2022/08/04 14:49:13 [notice] 1#1: start worker process 33
+2022/08/04 14:49:13 [notice] 1#1: start worker process 34
+2022/08/04 14:49:13 [notice] 1#1: start worker process 35
+2022/08/04 14:49:13 [notice] 1#1: start worker process 36
+2022/08/04 14:49:18 [error] 35#35: *6 open() "/var/www/html/public/_wdt/20f99a" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /_wdt/20f99a HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/08/04 14:49:19 [error] 35#35: *6 open() "/var/www/html/public/_wdt/20f99a" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /_wdt/20f99a HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/08/04 14:49:20 [error] 35#35: *6 open() "/var/www/html/public/_wdt/20f99a" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /_wdt/20f99a HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/08/04 14:49:21 [error] 35#35: *6 open() "/var/www/html/public/_wdt/20f99a" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /_wdt/20f99a HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/08/04 14:49:22 [error] 35#35: *6 open() "/var/www/html/public/_wdt/20f99a" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /_wdt/20f99a HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/08/04 14:49:32 [error] 35#35: *6 open() "/var/www/html/public/questions/reversing-a-spell" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /questions/reversing-a-spell HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/08/04 14:49:40 [error] 35#35: *6 open() "/var/www/html/public/_wdt/20f99a" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /_wdt/20f99a HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/08/04 14:49:41 [error] 35#35: *6 open() "/var/www/html/public/_wdt/20f99a" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /_wdt/20f99a HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/08/04 14:49:42 [error] 35#35: *6 open() "/var/www/html/public/_wdt/20f99a" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /_wdt/20f99a HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/08/04 14:49:42 [error] 35#35: *6 open() "/var/www/html/public/questions/pausing-a-spell" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /questions/pausing-a-spell HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/08/04 14:49:48 [error] 35#35: *6 open() "/var/www/html/public/_wdt/20f99a" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /_wdt/20f99a HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/08/04 14:49:49 [error] 35#35: *6 open() "/var/www/html/public/_wdt/20f99a" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /_wdt/20f99a HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/08/04 14:49:50 [error] 35#35: *6 open() "/var/www/html/public/_wdt/20f99a" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /_wdt/20f99a HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/08/04 14:49:51 [error] 35#35: *6 open() "/var/www/html/public/_wdt/20f99a" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /_wdt/20f99a HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/08/04 14:50:56 [error] 35#35: *6 open() "/var/www/html/public/_wdt/114c75" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /_wdt/114c75 HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/08/04 14:50:57 [error] 35#35: *6 open() "/var/www/html/public/_wdt/114c75" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /_wdt/114c75 HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/08/04 14:54:46 [error] 31#31: *14 open() "/var/www/html/public/_wdt/333b05" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /_wdt/333b05 HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/08/04 14:54:47 [error] 31#31: *14 open() "/var/www/html/public/_wdt/333b05" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /_wdt/333b05 HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/08/04 14:54:48 [error] 31#31: *14 open() "/var/www/html/public/_wdt/333b05" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /_wdt/333b05 HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/08/04 14:54:49 [error] 31#31: *14 open() "/var/www/html/public/_wdt/333b05" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /_wdt/333b05 HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/08/04 14:54:50 [error] 31#31: *14 open() "/var/www/html/public/questions/reversing-a-spell" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /questions/reversing-a-spell HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/08/04 14:54:52 [error] 31#31: *14 open() "/var/www/html/public/_wdt/333b05" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /_wdt/333b05 HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/08/04 14:55:00 [error] 31#31: *14 open() "/var/www/html/public/questions/reversing-a-spell" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /questions/reversing-a-spell HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/08/04 14:56:08 [error] 31#31: *18 open() "/var/www/html/public/_wdt/9005bb" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /_wdt/9005bb HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/08/04 14:56:09 [error] 31#31: *18 open() "/var/www/html/public/_wdt/9005bb" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /_wdt/9005bb HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/08/04 14:56:10 [error] 31#31: *18 open() "/var/www/html/public/questions/reversing-a-spell" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /questions/reversing-a-spell HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/08/04 14:56:11 [error] 31#31: *18 open() "/var/www/html/public/_wdt/9005bb" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /_wdt/9005bb HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/08/04 14:56:13 [error] 31#31: *18 open() "/var/www/html/public/_wdt/9005bb" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /_wdt/9005bb HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/08/04 14:56:15 [error] 31#31: *18 open() "/var/www/html/public/_wdt/9005bb" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /_wdt/9005bb HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/08/04 14:56:48 [error] 31#31: *18 open() "/var/www/html/public/questions/reversing-a-spell" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /questions/reversing-a-spell HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/08/04 14:58:39 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/08/04 14:58:39 [notice] 31#31: gracefully shutting down
+2022/08/04 14:58:39 [notice] 32#32: gracefully shutting down
+2022/08/04 14:58:39 [notice] 31#31: exiting
+2022/08/04 14:58:39 [notice] 33#33: gracefully shutting down
+2022/08/04 14:58:39 [notice] 36#36: gracefully shutting down
+2022/08/04 14:58:39 [notice] 35#35: gracefully shutting down
+2022/08/04 14:58:39 [notice] 34#34: gracefully shutting down
+2022/08/04 14:58:39 [notice] 35#35: exiting
+2022/08/04 14:58:39 [notice] 32#32: exiting
+2022/08/04 14:58:39 [notice] 33#33: exiting
+2022/08/04 14:58:39 [notice] 36#36: exiting
+2022/08/04 14:58:39 [notice] 33#33: exit
+2022/08/04 14:58:39 [notice] 31#31: exit
+2022/08/04 14:58:39 [notice] 34#34: exiting
+2022/08/04 14:58:39 [notice] 35#35: exit
+2022/08/04 14:58:39 [notice] 32#32: exit
+2022/08/04 14:58:39 [notice] 36#36: exit
+2022/08/04 14:58:39 [notice] 34#34: exit
+2022/08/04 14:58:39 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/08/04 14:58:39 [notice] 1#1: worker process 32 exited with code 0
+2022/08/04 14:58:39 [notice] 1#1: worker process 36 exited with code 0
+2022/08/04 14:58:39 [notice] 1#1: signal 29 (SIGIO) received
+2022/08/04 14:58:39 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2022/08/04 14:58:39 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/08/04 14:58:39 [notice] 1#1: worker process 31 exited with code 0
+2022/08/04 14:58:39 [notice] 1#1: worker process 33 exited with code 0
+2022/08/04 14:58:39 [notice] 1#1: signal 29 (SIGIO) received
+2022/08/04 14:58:39 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/08/04 14:58:39 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2022/08/04 14:58:39 [notice] 1#1: worker process 35 exited with code 0
+2022/08/04 14:58:39 [notice] 1#1: signal 29 (SIGIO) received
+2022/08/04 14:58:39 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2022/08/04 14:58:39 [notice] 1#1: worker process 34 exited with code 0
+2022/08/04 14:58:39 [notice] 1#1: exit
+2022/08/04 14:59:27 [notice] 1#1: using the "epoll" event method
+2022/08/04 14:59:27 [notice] 1#1: nginx/1.23.1
+2022/08/04 14:59:27 [notice] 1#1: built by gcc 11.2.1 20220219 (Alpine 11.2.1_git20220219) 
+2022/08/04 14:59:27 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2022/08/04 14:59:27 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/08/04 14:59:27 [notice] 1#1: start worker processes
+2022/08/04 14:59:27 [notice] 1#1: start worker process 31
+2022/08/04 14:59:27 [notice] 1#1: start worker process 32
+2022/08/04 14:59:27 [notice] 1#1: start worker process 33
+2022/08/04 14:59:27 [notice] 1#1: start worker process 34
+2022/08/04 14:59:27 [notice] 1#1: start worker process 35
+2022/08/04 14:59:27 [notice] 1#1: start worker process 36
+2022/08/04 14:59:31 [error] 31#31: *1 "/var/www/html/public/index.php" is not found (2: No such file or directory), client: 172.18.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8080"
+2022/08/04 14:59:53 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/08/04 14:59:53 [notice] 31#31: gracefully shutting down
+2022/08/04 14:59:53 [notice] 32#32: gracefully shutting down
+2022/08/04 14:59:53 [notice] 33#33: gracefully shutting down
+2022/08/04 14:59:53 [notice] 34#34: gracefully shutting down
+2022/08/04 14:59:53 [notice] 33#33: exiting
+2022/08/04 14:59:53 [notice] 35#35: gracefully shutting down
+2022/08/04 14:59:53 [notice] 36#36: gracefully shutting down
+2022/08/04 14:59:53 [notice] 31#31: exiting
+2022/08/04 14:59:53 [notice] 33#33: exit
+2022/08/04 14:59:53 [notice] 34#34: exiting
+2022/08/04 14:59:53 [notice] 34#34: exit
+2022/08/04 14:59:53 [notice] 35#35: exiting
+2022/08/04 14:59:53 [notice] 36#36: exiting
+2022/08/04 14:59:53 [notice] 31#31: exit
+2022/08/04 14:59:53 [notice] 36#36: exit
+2022/08/04 14:59:53 [notice] 35#35: exit
+2022/08/04 14:59:53 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2022/08/04 14:59:53 [notice] 1#1: worker process 31 exited with code 0
+2022/08/04 14:59:53 [notice] 1#1: worker process 34 exited with code 0
+2022/08/04 14:59:53 [notice] 1#1: signal 29 (SIGIO) received
+2022/08/04 14:59:53 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/08/04 14:59:53 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/08/04 14:59:53 [notice] 1#1: worker process 33 exited with code 0
+2022/08/04 14:59:53 [notice] 1#1: signal 29 (SIGIO) received
+2022/08/04 14:59:53 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2022/08/04 14:59:53 [notice] 1#1: worker process 35 exited with code 0
+2022/08/04 14:59:53 [notice] 1#1: signal 29 (SIGIO) received
+2022/08/04 14:59:53 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2022/08/04 14:59:53 [notice] 1#1: worker process 36 exited with code 0
+2022/08/04 14:59:53 [notice] 1#1: signal 29 (SIGIO) received
+2022/08/04 15:00:12 [notice] 1#1: using the "epoll" event method
+2022/08/04 15:00:12 [notice] 1#1: nginx/1.23.1
+2022/08/04 15:00:12 [notice] 1#1: built by gcc 11.2.1 20220219 (Alpine 11.2.1_git20220219) 
+2022/08/04 15:00:12 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2022/08/04 15:00:12 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/08/04 15:00:12 [notice] 1#1: start worker processes
+2022/08/04 15:00:12 [notice] 1#1: start worker process 31
+2022/08/04 15:00:12 [notice] 1#1: start worker process 32
+2022/08/04 15:00:12 [notice] 1#1: start worker process 33
+2022/08/04 15:00:12 [notice] 1#1: start worker process 34
+2022/08/04 15:00:12 [notice] 1#1: start worker process 35
+2022/08/04 15:00:12 [notice] 1#1: start worker process 36
+2022/08/04 15:00:17 [error] 32#32: *1 open() "/var/www/html/public/_wdt/e74613" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /_wdt/e74613 HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/08/04 15:00:18 [error] 32#32: *1 open() "/var/www/html/public/_wdt/e74613" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /_wdt/e74613 HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/08/04 15:00:19 [error] 32#32: *1 open() "/var/www/html/public/questions/reversing-a-spell" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /questions/reversing-a-spell HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/08/04 15:06:06 [error] 34#34: *4 open() "/var/www/html/public/_wdt/ee3916" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /_wdt/ee3916 HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/08/04 15:06:07 [error] 34#34: *4 open() "/var/www/html/public/_wdt/ee3916" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /_wdt/ee3916 HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/08/04 15:06:08 [error] 34#34: *4 open() "/var/www/html/public/_wdt/ee3916" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /_wdt/ee3916 HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/08/04 15:06:09 [error] 34#34: *4 open() "/var/www/html/public/_wdt/ee3916" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /_wdt/ee3916 HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/08/04 15:06:10 [error] 34#34: *4 open() "/var/www/html/public/_wdt/ee3916" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /_wdt/ee3916 HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/08/04 15:07:00 [error] 32#32: *11 open() "/var/www/html/public/_wdt/b1a796" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /_wdt/b1a796 HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/08/04 15:07:00 [error] 32#32: *11 open() "/var/www/html/public/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/08/04 15:07:01 [error] 32#32: *11 open() "/var/www/html/public/_wdt/b1a796" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /_wdt/b1a796 HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/08/04 15:07:02 [error] 32#32: *11 open() "/var/www/html/public/_wdt/b1a796" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /_wdt/b1a796 HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/08/04 15:07:03 [error] 32#32: *11 open() "/var/www/html/public/_wdt/b1a796" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /_wdt/b1a796 HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/08/04 15:07:04 [error] 32#32: *11 open() "/var/www/html/public/_wdt/b1a796" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /_wdt/b1a796 HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/08/04 15:14:27 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/08/04 15:14:27 [notice] 31#31: gracefully shutting down
+2022/08/04 15:14:27 [notice] 36#36: gracefully shutting down
+2022/08/04 15:14:27 [notice] 34#34: gracefully shutting down
+2022/08/04 15:14:27 [notice] 36#36: exiting
+2022/08/04 15:14:27 [notice] 31#31: exiting
+2022/08/04 15:14:27 [notice] 36#36: exit
+2022/08/04 15:14:27 [notice] 33#33: gracefully shutting down
+2022/08/04 15:14:27 [notice] 33#33: exiting
+2022/08/04 15:14:27 [notice] 33#33: exit
+2022/08/04 15:14:27 [notice] 32#32: gracefully shutting down
+2022/08/04 15:14:27 [notice] 34#34: exiting
+2022/08/04 15:14:27 [notice] 35#35: gracefully shutting down
+2022/08/04 15:14:27 [notice] 31#31: exit
+2022/08/04 15:14:27 [notice] 32#32: exiting
+2022/08/04 15:14:27 [notice] 32#32: exit
+2022/08/04 15:14:27 [notice] 34#34: exit
+2022/08/04 15:14:27 [notice] 35#35: exiting
+2022/08/04 15:14:27 [notice] 35#35: exit
+2022/08/04 15:14:27 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2022/08/04 15:14:27 [notice] 1#1: worker process 36 exited with code 0
+2022/08/04 15:14:27 [notice] 1#1: worker process 32 exited with code 0
+2022/08/04 15:14:27 [notice] 1#1: signal 29 (SIGIO) received
+2022/08/04 15:14:27 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/08/04 15:14:27 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/08/04 15:14:27 [notice] 1#1: worker process 33 exited with code 0
+2022/08/04 15:14:27 [notice] 1#1: worker process 31 exited with code 0
+2022/08/04 15:14:27 [notice] 1#1: signal 29 (SIGIO) received
+2022/08/04 15:14:27 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/08/04 15:14:27 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2022/08/04 15:14:27 [notice] 1#1: worker process 35 exited with code 0
+2022/08/04 15:14:27 [notice] 1#1: worker process 34 exited with code 0
+2022/08/04 15:14:27 [notice] 1#1: exit
+2022/08/04 15:14:47 [notice] 1#1: using the "epoll" event method
+2022/08/04 15:14:47 [notice] 1#1: nginx/1.23.1
+2022/08/04 15:14:47 [notice] 1#1: built by gcc 11.2.1 20220219 (Alpine 11.2.1_git20220219) 
+2022/08/04 15:14:47 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2022/08/04 15:14:47 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/08/04 15:14:47 [notice] 1#1: start worker processes
+2022/08/04 15:14:47 [notice] 1#1: start worker process 31
+2022/08/04 15:14:47 [notice] 1#1: start worker process 32
+2022/08/04 15:14:47 [notice] 1#1: start worker process 33
+2022/08/04 15:14:47 [notice] 1#1: start worker process 34
+2022/08/04 15:14:47 [notice] 1#1: start worker process 35
+2022/08/04 15:14:47 [notice] 1#1: start worker process 36
+2022/08/04 15:14:52 [crit] 31#31: *2 connect() to unix:/var/run/php/php7.2-fpm.sock failed (2: No such file or directory) while connecting to upstream, client: 172.18.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "localhost:8080"
+2022/08/04 15:15:05 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/08/04 15:15:05 [notice] 31#31: gracefully shutting down
+2022/08/04 15:15:05 [notice] 33#33: gracefully shutting down
+2022/08/04 15:15:05 [notice] 32#32: gracefully shutting down
+2022/08/04 15:15:05 [notice] 35#35: gracefully shutting down
+2022/08/04 15:15:05 [notice] 36#36: gracefully shutting down
+2022/08/04 15:15:05 [notice] 35#35: exiting
+2022/08/04 15:15:05 [notice] 34#34: gracefully shutting down
+2022/08/04 15:15:05 [notice] 33#33: exiting
+2022/08/04 15:15:05 [notice] 35#35: exit
+2022/08/04 15:15:05 [notice] 32#32: exiting
+2022/08/04 15:15:05 [notice] 32#32: exit
+2022/08/04 15:15:05 [notice] 36#36: exiting
+2022/08/04 15:15:05 [notice] 34#34: exiting
+2022/08/04 15:15:05 [notice] 36#36: exit
+2022/08/04 15:15:05 [notice] 34#34: exit
+2022/08/04 15:15:05 [notice] 33#33: exit
+2022/08/04 15:15:05 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2022/08/04 15:15:05 [notice] 1#1: worker process 35 exited with code 0
+2022/08/04 15:15:05 [notice] 1#1: signal 29 (SIGIO) received
+2022/08/04 15:15:05 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/08/04 15:15:05 [notice] 1#1: worker process 32 exited with code 0
+2022/08/04 15:15:05 [notice] 1#1: worker process 33 exited with code 0
+2022/08/04 15:15:05 [notice] 1#1: worker process 36 exited with code 0
+2022/08/04 15:15:05 [notice] 1#1: signal 29 (SIGIO) received
+2022/08/04 15:15:05 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2022/08/04 15:15:05 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2022/08/04 15:15:05 [notice] 1#1: worker process 34 exited with code 0
+2022/08/04 15:15:05 [notice] 1#1: signal 29 (SIGIO) received
+2022/08/04 15:15:59 [notice] 1#1: using the "epoll" event method
+2022/08/04 15:15:59 [notice] 1#1: nginx/1.23.1
+2022/08/04 15:15:59 [notice] 1#1: built by gcc 11.2.1 20220219 (Alpine 11.2.1_git20220219) 
+2022/08/04 15:15:59 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2022/08/04 15:15:59 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/08/04 15:15:59 [notice] 1#1: start worker processes
+2022/08/04 15:15:59 [notice] 1#1: start worker process 31
+2022/08/04 15:15:59 [notice] 1#1: start worker process 32
+2022/08/04 15:15:59 [notice] 1#1: start worker process 33
+2022/08/04 15:15:59 [notice] 1#1: start worker process 34
+2022/08/04 15:15:59 [notice] 1#1: start worker process 35
+2022/08/04 15:15:59 [notice] 1#1: start worker process 36
+2022/08/04 15:17:46 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/08/04 15:17:46 [notice] 34#34: gracefully shutting down
+2022/08/04 15:17:46 [notice] 33#33: gracefully shutting down
+2022/08/04 15:17:46 [notice] 36#36: gracefully shutting down
+2022/08/04 15:17:46 [notice] 36#36: exiting
+2022/08/04 15:17:46 [notice] 32#32: gracefully shutting down
+2022/08/04 15:17:46 [notice] 34#34: exiting
+2022/08/04 15:17:46 [notice] 35#35: gracefully shutting down
+2022/08/04 15:17:46 [notice] 31#31: gracefully shutting down
+2022/08/04 15:17:46 [notice] 35#35: exiting
+2022/08/04 15:17:46 [notice] 36#36: exit
+2022/08/04 15:17:46 [notice] 35#35: exit
+2022/08/04 15:17:46 [notice] 32#32: exiting
+2022/08/04 15:17:46 [notice] 32#32: exit
+2022/08/04 15:17:46 [notice] 34#34: exit
+2022/08/04 15:17:46 [notice] 31#31: exiting
+2022/08/04 15:17:46 [notice] 31#31: exit
+2022/08/04 15:17:46 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/08/04 15:17:46 [notice] 1#1: worker process 31 exited with code 0
+2022/08/04 15:17:46 [notice] 1#1: worker process 32 exited with code 0
+2022/08/04 15:17:46 [notice] 1#1: worker process 34 exited with code 0
+2022/08/04 15:17:46 [notice] 1#1: worker process 35 exited with code 0
+2022/08/04 15:17:46 [notice] 1#1: worker process 36 exited with code 0
+2022/08/04 15:17:46 [notice] 1#1: signal 29 (SIGIO) received
+2022/08/04 15:17:46 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2022/08/04 15:18:13 [notice] 1#1: using the "epoll" event method
+2022/08/04 15:18:13 [notice] 1#1: nginx/1.23.1
+2022/08/04 15:18:13 [notice] 1#1: built by gcc 11.2.1 20220219 (Alpine 11.2.1_git20220219) 
+2022/08/04 15:18:13 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2022/08/04 15:18:13 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/08/04 15:18:13 [notice] 1#1: start worker processes
+2022/08/04 15:18:13 [notice] 1#1: start worker process 31
+2022/08/04 15:18:13 [notice] 1#1: start worker process 32
+2022/08/04 15:18:13 [notice] 1#1: start worker process 33
+2022/08/04 15:18:13 [notice] 1#1: start worker process 34
+2022/08/04 15:18:13 [notice] 1#1: start worker process 35
+2022/08/04 15:18:13 [notice] 1#1: start worker process 36
+2022/08/04 15:20:41 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/08/04 15:20:41 [notice] 31#31: gracefully shutting down
+2022/08/04 15:20:41 [notice] 36#36: gracefully shutting down
+2022/08/04 15:20:41 [notice] 33#33: gracefully shutting down
+2022/08/04 15:20:41 [notice] 36#36: exiting
+2022/08/04 15:20:41 [notice] 34#34: gracefully shutting down
+2022/08/04 15:20:41 [notice] 31#31: exiting
+2022/08/04 15:20:41 [notice] 35#35: gracefully shutting down
+2022/08/04 15:20:41 [notice] 32#32: gracefully shutting down
+2022/08/04 15:20:41 [notice] 35#35: exiting
+2022/08/04 15:20:41 [notice] 33#33: exiting
+2022/08/04 15:20:41 [notice] 33#33: exit
+2022/08/04 15:20:41 [notice] 34#34: exiting
+2022/08/04 15:20:41 [notice] 36#36: exit
+2022/08/04 15:20:41 [notice] 31#31: exit
+2022/08/04 15:20:41 [notice] 32#32: exiting
+2022/08/04 15:20:41 [notice] 32#32: exit
+2022/08/04 15:20:41 [notice] 35#35: exit
+2022/08/04 15:20:41 [notice] 34#34: exit
+2022/08/04 15:20:41 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/08/04 15:20:41 [notice] 1#1: worker process 32 exited with code 0
+2022/08/04 15:20:41 [notice] 1#1: worker process 33 exited with code 0
+2022/08/04 15:20:41 [notice] 1#1: worker process 34 exited with code 0
+2022/08/04 15:20:41 [notice] 1#1: worker process 35 exited with code 0
+2022/08/04 15:20:41 [notice] 1#1: signal 29 (SIGIO) received
+2022/08/04 15:20:41 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2022/08/04 15:20:41 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2022/08/04 15:20:41 [notice] 1#1: worker process 31 exited with code 0
+2022/08/04 15:20:41 [notice] 1#1: worker process 36 exited with code 0
+2022/08/04 15:20:41 [notice] 1#1: exit
+2022/08/04 15:21:06 [notice] 1#1: using the "epoll" event method
+2022/08/04 15:21:06 [notice] 1#1: nginx/1.23.1
+2022/08/04 15:21:06 [notice] 1#1: built by gcc 11.2.1 20220219 (Alpine 11.2.1_git20220219) 
+2022/08/04 15:21:06 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2022/08/04 15:21:06 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/08/04 15:21:06 [notice] 1#1: start worker processes
+2022/08/04 15:21:06 [notice] 1#1: start worker process 31
+2022/08/04 15:21:06 [notice] 1#1: start worker process 32
+2022/08/04 15:21:06 [notice] 1#1: start worker process 33
+2022/08/04 15:21:06 [notice] 1#1: start worker process 34
+2022/08/04 15:21:06 [notice] 1#1: start worker process 35
+2022/08/04 15:21:06 [notice] 1#1: start worker process 36
+2022/08/04 16:41:46 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/08/04 16:41:46 [notice] 31#31: gracefully shutting down
+2022/08/04 16:41:46 [notice] 36#36: gracefully shutting down
+2022/08/04 16:41:46 [notice] 33#33: gracefully shutting down
+2022/08/04 16:41:46 [notice] 35#35: gracefully shutting down
+2022/08/04 16:41:46 [notice] 32#32: gracefully shutting down
+2022/08/04 16:41:46 [notice] 35#35: exiting
+2022/08/04 16:41:46 [notice] 34#34: gracefully shutting down
+2022/08/04 16:41:46 [notice] 34#34: exiting
+2022/08/04 16:41:46 [notice] 31#31: exiting
+2022/08/04 16:41:46 [notice] 31#31: exit
+2022/08/04 16:41:46 [notice] 36#36: exiting
+2022/08/04 16:41:46 [notice] 33#33: exiting
+2022/08/04 16:41:46 [notice] 32#32: exiting
+2022/08/04 16:41:46 [notice] 36#36: exit
+2022/08/04 16:41:46 [notice] 35#35: exit
+2022/08/04 16:41:46 [notice] 34#34: exit
+2022/08/04 16:41:46 [notice] 33#33: exit
+2022/08/04 16:41:46 [notice] 32#32: exit
+2022/08/04 16:41:46 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/08/04 16:41:46 [notice] 1#1: worker process 32 exited with code 0
+2022/08/04 16:41:46 [notice] 1#1: worker process 33 exited with code 0
+2022/08/04 16:41:46 [notice] 1#1: signal 29 (SIGIO) received
+2022/08/04 16:41:46 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2022/08/04 16:41:46 [notice] 1#1: worker process 31 exited with code 0
+2022/08/04 16:41:46 [notice] 1#1: worker process 36 exited with code 0
+2022/08/04 16:41:46 [notice] 1#1: signal 29 (SIGIO) received
+2022/08/04 16:41:46 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/08/04 16:41:46 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2022/08/04 16:41:46 [notice] 1#1: worker process 34 exited with code 0
+2022/08/04 16:41:46 [notice] 1#1: worker process 35 exited with code 0
+2022/08/04 16:41:46 [notice] 1#1: exit
+2022/08/04 16:45:15 [notice] 1#1: using the "epoll" event method
+2022/08/04 16:45:15 [notice] 1#1: nginx/1.23.1
+2022/08/04 16:45:15 [notice] 1#1: built by gcc 11.2.1 20220219 (Alpine 11.2.1_git20220219) 
+2022/08/04 16:45:15 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2022/08/04 16:45:15 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/08/04 16:45:15 [notice] 1#1: start worker processes
+2022/08/04 16:45:15 [notice] 1#1: start worker process 31
+2022/08/04 16:45:15 [notice] 1#1: start worker process 32
+2022/08/04 16:45:15 [notice] 1#1: start worker process 33
+2022/08/04 16:45:15 [notice] 1#1: start worker process 34
+2022/08/04 16:45:15 [notice] 1#1: start worker process 35
+2022/08/04 16:45:15 [notice] 1#1: start worker process 36
+2022/08/04 16:46:45 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/08/04 16:46:45 [notice] 32#32: gracefully shutting down
+2022/08/04 16:46:45 [notice] 33#33: gracefully shutting down
+2022/08/04 16:46:45 [notice] 31#31: gracefully shutting down
+2022/08/04 16:46:45 [notice] 33#33: exiting
+2022/08/04 16:46:45 [notice] 35#35: gracefully shutting down
+2022/08/04 16:46:45 [notice] 36#36: gracefully shutting down
+2022/08/04 16:46:45 [notice] 34#34: gracefully shutting down
+2022/08/04 16:46:45 [notice] 36#36: exiting
+2022/08/04 16:46:45 [notice] 32#32: exiting
+2022/08/04 16:46:45 [notice] 31#31: exiting
+2022/08/04 16:46:45 [notice] 31#31: exit
+2022/08/04 16:46:45 [notice] 33#33: exit
+2022/08/04 16:46:45 [notice] 35#35: exiting
+2022/08/04 16:46:45 [notice] 34#34: exiting
+2022/08/04 16:46:45 [notice] 35#35: exit
+2022/08/04 16:46:45 [notice] 36#36: exit
+2022/08/04 16:46:45 [notice] 32#32: exit
+2022/08/04 16:46:45 [notice] 34#34: exit
+2022/08/04 16:46:45 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/08/04 16:46:45 [notice] 1#1: worker process 31 exited with code 0
+2022/08/04 16:46:45 [notice] 1#1: worker process 33 exited with code 0
+2022/08/04 16:46:45 [notice] 1#1: signal 29 (SIGIO) received
+2022/08/04 16:46:45 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/08/04 16:46:45 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2022/08/04 16:46:45 [notice] 1#1: worker process 34 exited with code 0
+2022/08/04 16:46:45 [notice] 1#1: worker process 36 exited with code 0
+2022/08/04 16:46:45 [notice] 1#1: signal 29 (SIGIO) received
+2022/08/04 16:46:45 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2022/08/04 16:46:45 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/08/04 16:46:45 [notice] 1#1: worker process 32 exited with code 0
+2022/08/04 16:46:45 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2022/08/04 16:46:45 [notice] 1#1: worker process 35 exited with code 0
+2022/08/04 16:46:45 [notice] 1#1: exit
